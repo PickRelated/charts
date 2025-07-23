@@ -1,8 +1,0 @@
-replicas: 1
-
-port: 6379
-
-image:
-  prod: redis
-  staging: redis
-  dev: redis

@@ -1,3 +1,0 @@
-{{- if index .Values.global.localDB .Values.global.server }}
-{{- template "pickrelated.deployment" . }}
-{{- end }}
