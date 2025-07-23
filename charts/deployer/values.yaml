@@ -6,7 +6,7 @@ image:
   pickrelated: pickrelated/deployer
 
 host:
-  de: de.pickrelated.com
+  de: de.rollout.pickrelated.com
 
 global:
   namespace: deployer

@@ -2,5 +2,5 @@ apiVersion: v2
 name: deployer
 description: App for CD to react to docker hub hooks
 type: application
-version: 25.07.02
-appVersion: 25.07.02
+version: 25.07.03
+appVersion: 25.07.03
