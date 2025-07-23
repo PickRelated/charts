@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  app-sample:
+  - apiVersion: v2
+    appVersion: 24.10.83
+    created: "2025-07-23T22:02:43.860495621Z"
+    description: Sample app
+    digest: 37ed9f6d199e11cde426c704c83895ad23473bc63f9866778e325bf384947d1c
+    name: app-sample
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/app-sample-24.10.83/app-sample-24.10.83.tgz
+    version: 24.10.83
+generated: "2025-07-23T22:02:43.860506852Z"
