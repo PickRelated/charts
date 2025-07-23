@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   app-sample:
   - apiVersion: v2
+    appVersion: 25.07.01
+    created: "2025-07-23T22:04:57.759874501Z"
+    description: Sample app
+    digest: 99e9386b14e68f948d543a681723b7f5c045eec9a7fc9f424fb3e00fceec33ae
+    name: app-sample
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/app-sample-25.07.01/app-sample-25.07.01.tgz
+    version: 25.07.01
+  - apiVersion: v2
     appVersion: 24.10.83
     created: "2025-07-23T22:02:43.860495621Z"
     description: Sample app
@@ -11,4 +21,48 @@ entries:
     urls:
     - https://github.com/PickRelated/charts/releases/download/app-sample-24.10.83/app-sample-24.10.83.tgz
     version: 24.10.83
-generated: "2025-07-23T22:02:43.860506852Z"
+  clusterissuer:
+  - apiVersion: v2
+    appVersion: 25.07.01
+    created: "2025-07-23T22:04:57.929383072Z"
+    description: Certificate issuer for cluster
+    digest: 189f24daaaf3612cfd14cfffa5adaded5e1f767ff41b3fe6bfcc806858704528
+    name: clusterissuer
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/clusterissuer-25.07.01/clusterissuer-25.07.01.tgz
+    version: 25.07.01
+  deployer:
+  - apiVersion: v2
+    appVersion: 25.07.01
+    created: "2025-07-23T22:04:58.127156048Z"
+    description: App for CD to react to docker hub hooks
+    digest: 6ff97c906a3e85fba8152b1d0004be6e01274d8f4dd7320107a0a2ca2fb98b82
+    name: deployer
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/deployer-25.07.01/deployer-25.07.01.tgz
+    version: 25.07.01
+  metallb:
+  - apiVersion: v2
+    appVersion: 25.07.01
+    created: "2025-07-23T22:04:58.298618695Z"
+    description: Metallb traffic manager for self-hosted k8
+    digest: 094f81bc3679254d6d249ae3d777a3a0a19fb1d54bf58b3fa0cd16084659db31
+    name: metallb
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/metallb-25.07.01/metallb-25.07.01.tgz
+    version: 25.07.01
+  vpn:
+  - apiVersion: v2
+    appVersion: 25.07.01
+    created: "2025-07-23T22:04:58.44865567Z"
+    description: VPN server
+    digest: 258f0046b51d523bb491bb1bcf29bd4a70a13a0650bfca30859a1f1a1f50d2b9
+    name: vpn
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/vpn-25.07.01/vpn-25.07.01.tgz
+    version: 25.07.01
+generated: "2025-07-23T22:04:58.448665689Z"
