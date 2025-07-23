@@ -31,6 +31,16 @@ helm install app pickrelated/app-sample \
   --set global.tlsCertBase64=$(cat ./tls.cert | base64 -w 0)
 ```
 
+Websocket Broadcast Relay
+```bash
+helm repo add pickrelated https://pickrelated.github.io/charts
+helm install app pickrelated/websocket-broadcast-relay \
+  --set global.server=prod \
+  --set global.dockerConfigBase64=$(cat ./.docker/config.json | base64 -w 0) \
+  --set global.tlsKeyBase64=$(cat ./tls.key | base64 -w 0) \
+  --set global.tlsCertBase64=$(cat ./tls.cert | base64 -w 0)
+```
+
 VPN
 ```bash
 helm repo add pickrelated https://pickrelated.github.io/charts

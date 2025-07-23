@@ -1,0 +1,6 @@
+global:
+  namespace: websocket-broadcast-relay
+
+  localDB:
+    staging: true
+    dev: true
