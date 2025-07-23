@@ -1,5 +1,5 @@
 apiVersion: v2
-name: app
+name: app-sample
 description: Sample app
 type: application
 version: 24.10.83
