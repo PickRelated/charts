@@ -3,7 +3,7 @@ replicas: 1
 port: 7676
 
 image:
-  pickrelated: pickrelated/deployer
+  de: pickrelated/deployer
 
 host:
   de: de.rollout.pickrelated.com
