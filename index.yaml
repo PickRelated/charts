@@ -34,6 +34,16 @@ entries:
     version: 25.07.01
   deployer:
   - apiVersion: v2
+    appVersion: 25.07.04
+    created: "2025-07-23T23:29:57.152910256Z"
+    description: App for CD to react to docker hub hooks
+    digest: afa547ed2c1890ba716b4283cff43b671a56a689b5cbc5838d20d73fda7e67c9
+    name: deployer
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/deployer-25.07.04/deployer-25.07.04.tgz
+    version: 25.07.04
+  - apiVersion: v2
     appVersion: 25.07.03
     created: "2025-07-23T23:23:20.096652119Z"
     description: App for CD to react to docker hub hooks
@@ -85,4 +95,4 @@ entries:
     urls:
     - https://github.com/PickRelated/charts/releases/download/vpn-25.07.01/vpn-25.07.01.tgz
     version: 25.07.01
-generated: "2025-07-23T23:23:20.096674441Z"
+generated: "2025-07-23T23:29:57.15293356Z"
