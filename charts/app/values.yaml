@@ -1,0 +1,6 @@
+global:
+  namespace: app-sample
+
+  localDB:
+    staging: true
+    dev: true

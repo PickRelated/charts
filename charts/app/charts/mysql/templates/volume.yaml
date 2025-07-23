@@ -1,0 +1,3 @@
+{{- if index .Values.global.localDB .Values.global.server }}
+{{- template "pickrelated.volume" . }}
+{{- end }}

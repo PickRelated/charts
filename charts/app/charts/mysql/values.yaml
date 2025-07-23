@@ -1,0 +1,29 @@
+replicas: 1
+
+port: 3306
+
+startupProbe:
+  exec:
+    command: ["mysqladmin", "ping", "-uping", "-pping"]
+  initialDelaySeconds: 5
+  periodSeconds: 5
+  timeoutSeconds: 5
+
+livenessProbe:
+  exec:
+    command: ["mysqladmin", "ping", "-uping", "-pping"]
+  initialDelaySeconds: 10
+  periodSeconds: 10
+  timeoutSeconds: 5
+
+volumeMounts:
+  - mountPath: /var/lib/mysql
+    name: mysql
+
+image:
+  staging: mysql:8.0.40
+  dev: mysql:8.0.40
+
+global:
+  env:
+    MYSQL_ROOT_PASSWORD: root1
