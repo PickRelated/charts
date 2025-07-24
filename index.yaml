@@ -1,5 +1,26 @@
 apiVersion: v1
 entries:
+  all:
+  - apiVersion: v2
+    appVersion: 25.07.06
+    created: "2025-07-24T00:07:55.533094974Z"
+    description: App for CD to react to docker hub hooks
+    digest: 26bc5999f388fc1ad6ea86458d9f480cae1962efedbf07f38b6ff2b5cd8323a2
+    name: all
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/all-25.07.06/all-25.07.06.tgz
+    version: 25.07.06
+  - apiVersion: v2
+    appVersion: 25.07.02
+    created: "2025-07-24T00:07:55.315094259Z"
+    description: Websocket broadcast relay
+    digest: 1cb47982b59080cf74be83b74d28d8e2b9cceeaab41c16bcaea86dc7d25e451d
+    name: all
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/all-25.07.02/all-25.07.02.tgz
+    version: 25.07.02
   app-sample:
   - apiVersion: v2
     appVersion: 25.07.01
@@ -105,4 +126,4 @@ entries:
     urls:
     - https://github.com/PickRelated/charts/releases/download/vpn-25.07.01/vpn-25.07.01.tgz
     version: 25.07.01
-generated: "2025-07-23T23:46:15.949812185Z"
+generated: "2025-07-24T00:07:55.533116494Z"
