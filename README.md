@@ -15,7 +15,7 @@ docker login -u pickrelated
 Deployer
 ```bash
 helm repo add pickrelated https://pickrelated.github.io/charts
-helm install all pickrelated/deployer \
+helm install deployer pickrelated/deployer \
   --set global.server=de \
   --set global.dockerConfigBase64=$(cat ./.docker/config.json | base64 -w 0) \
   --set global.env.K8_TOKEN=$(cat ./k8Token.txt)
@@ -24,7 +24,7 @@ helm install all pickrelated/deployer \
 App sample
 ```bash
 helm repo add pickrelated https://pickrelated.github.io/charts
-helm install all pickrelated/app-sample \
+helm install app-sample pickrelated/app-sample \
   --set global.server=prod \
   --set global.dockerConfigBase64=$(cat ./.docker/config.json | base64 -w 0) \
   --set global.tlsKeyBase64=$(cat ./tls.key | base64 -w 0) \
@@ -34,7 +34,7 @@ helm install all pickrelated/app-sample \
 Websocket Broadcast Relay
 ```bash
 helm repo add pickrelated https://pickrelated.github.io/charts
-helm install all pickrelated/websocket-broadcast-relay \
+helm install websocket-broadcast-relay pickrelated/websocket-broadcast-relay \
   --set global.server=prod \
   --set global.dockerConfigBase64=$(cat ./.docker/config.json | base64 -w 0) \
   --set global.tlsKeyBase64=$(cat ./tls.key | base64 -w 0) \
@@ -44,7 +44,7 @@ helm install all pickrelated/websocket-broadcast-relay \
 VPN
 ```bash
 helm repo add pickrelated https://pickrelated.github.io/charts
-helm install all pickrelated/vpn \
+helm install vpn pickrelated/vpn \
   --set ip=1.2.3.4
   --set psk=yourpsk \
   --set user=vpnuser \
@@ -54,7 +54,7 @@ helm install all pickrelated/vpn \
 Metallb
 ```bash
 helm repo add pickrelated https://pickrelated.github.io/charts
-helm install all pickrelated/metallb --set global.server=de
+helm install metallb pickrelated/metallb --set global.server=de
 ```
 
 Development debug

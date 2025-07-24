@@ -1,6 +1,6 @@
 apiVersion: v2
-name: all
+name: clusterissuer
 description: Certificate issuer for cluster
 type: application
-version: 25.07.02
-appVersion: 25.07.02
+version: 25.07.03
+appVersion: 25.07.03

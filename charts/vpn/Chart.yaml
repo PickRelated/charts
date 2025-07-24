@@ -1,6 +1,6 @@
 apiVersion: v2
-name: all
+name: vpn
 description: VPN server
 type: application
-version: 25.07.02
-appVersion: 25.07.02
+version: 25.07.03
+appVersion: 25.07.03
