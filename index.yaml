@@ -178,6 +178,16 @@ entries:
     version: 25.07.01
   websocket-broadcast-relay:
   - apiVersion: v2
+    appVersion: 25.07.09
+    created: "2025-07-24T02:02:52.512900051Z"
+    description: Websocket broadcast relay
+    digest: e5ae8decc2024e9e3e555b46cf70f3554f5d015517ad83533dcac0b6ae5f83bf
+    name: websocket-broadcast-relay
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/websocket-broadcast-relay-25.07.09/websocket-broadcast-relay-25.07.09.tgz
+    version: 25.07.09
+  - apiVersion: v2
     appVersion: 25.07.08
     created: "2025-07-24T01:55:10.973912642Z"
     description: Websocket broadcast relay
@@ -237,4 +247,4 @@ entries:
     urls:
     - https://github.com/PickRelated/charts/releases/download/websocket-broadcast-relay-25.07.03/websocket-broadcast-relay-25.07.03.tgz
     version: 25.07.03
-generated: "2025-07-24T01:55:10.973955594Z"
+generated: "2025-07-24T02:02:52.512952983Z"
