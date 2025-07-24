@@ -60,8 +60,9 @@ helm install metallb pickrelated/metallb --set global.server=de
 Development debug
 ```bash
 helm template . \
-  --set global.server=de \
-  --set-string global.dockerConfigBase64=$(cat ./.docker/config.json | base64) \
+  --set global.server=prod \
+  --set-string global.dockerConfigBase64=$(cat ./config.json | base64) \
   --set-string global.tlsKeyBase64=$(cat ./tls.key | base64) \
-  --set-string global.tlsCertBase64=$(cat ./tls.cert | base64)
+  --set-string global.tlsCertBase64=$(cat ./tls.cert | base64) \
+  --set global.env.K8_TOKEN=$(cat ./k8Token.txt)
 ```
