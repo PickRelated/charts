@@ -1,6 +1,6 @@
 apiVersion: v2
-name: metallb
+name: all
 description: Metallb traffic manager for self-hosted k8
 type: application
-version: 25.07.01
-appVersion: 25.07.01
+version: 25.07.02
+appVersion: 25.07.02
