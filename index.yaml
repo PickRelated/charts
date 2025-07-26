@@ -136,6 +136,16 @@ entries:
     version: 25.07.01
   grafana:
   - apiVersion: v2
+    appVersion: 25.07.03
+    created: "2025-07-26T20:49:43.860437963Z"
+    description: Ingress for grafana
+    digest: 5f32d745d4c24121a67b0174714e1acb6f8fc1bc4e00a199b3eeb5b3f55afb93
+    name: grafana
+    type: application
+    urls:
+    - https://github.com/PickRelated/charts/releases/download/grafana-25.07.03/grafana-25.07.03.tgz
+    version: 25.07.03
+  - apiVersion: v2
     appVersion: 25.07.02
     created: "2025-07-26T20:45:47.950300566Z"
     description: Ingress for grafana
@@ -268,4 +278,4 @@ entries:
     urls:
     - https://github.com/PickRelated/charts/releases/download/websocket-broadcast-relay-25.07.03/websocket-broadcast-relay-25.07.03.tgz
     version: 25.07.03
-generated: "2025-07-26T20:45:47.950392379Z"
+generated: "2025-07-26T20:49:43.860487688Z"
