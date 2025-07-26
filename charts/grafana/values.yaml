@@ -1,5 +1,5 @@
 global:
-  namespace: app-sample
+  namespace: grafana
 
 port: 80
 
