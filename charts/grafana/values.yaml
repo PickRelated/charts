@@ -1,0 +1,11 @@
+port: 80
+
+host:
+  prod: grafana.pickrelated.com
+  staging: grafana.staging.pickrelated.com
+  dev: grafana.dev.pickrelated.com
+
+secretName:
+  prod: tls-pickrelated-wildcard
+  staging: tls-front
+  dev: tls-front

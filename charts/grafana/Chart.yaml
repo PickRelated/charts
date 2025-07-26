@@ -1,0 +1,6 @@
+apiVersion: v2
+name: grafana
+description: Ingress for grafana
+type: application
+version: 25.07.01
+appVersion: 25.07.01
